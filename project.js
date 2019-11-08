@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('.divs').hide()
 	//$('.gridcontainer').hide();
 	//var pass = ['07112019', 'myfriendooo'];
 
@@ -16,4 +17,10 @@ $(document).ready(function() {
 
 	});
 */
+	$('#enter').on('click', function(){
+		
+		$('.divs').show();
+		$('.header').toggle();
+
+	});
 });
