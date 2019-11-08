@@ -1,7 +1,17 @@
-.gridcontainer {
-  display: grid;
-  grid-template-columns: 1fr ;
-  grid-template-rows: 1fr 1fr 1fr;
-  background-color: #2196F3;
-  grid-gap: 40px;
+#all {
+  	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr 1fr ;
+	grid-row-gap: 40px;
+}
+
+.divs {
+	margin: 10px;
+	background-color: #CBE2E3;
+	
+	border-radius: 30px ;
+	font-size: 15px;
+}
+#studies {
+	background-color: white ;
 }
