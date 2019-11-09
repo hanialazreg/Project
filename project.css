@@ -101,29 +101,40 @@ h4 {
   
 }
 .bgFont li{
-font-size:15px;
+font-size:40px;
+
 }
 #work {
 	font-size: large;
     text-align: center;
 }
-#vol1  {
+.vol  {
 
-  	border-radius: 50%;
-  	width: 90px;
   	
+  	margin: 20px auto auto 20px;
+    border-radius: 10%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
 
   
 }
-#vol2 {
-
-	border-radius: 50%;
-  	width: 70px;
-  	 
+#arrow {
+  border-radius: 50%;
+  width: 65px;
+  margin-left: 260px;
 
 }
-#vol3 {
-	border-radius: 50%;
-  	width: 70px;
-  	
+#arrow:hover {
+  -webkit-transform: rotate(90deg);
+  transform: scaleX(-90deg);
 }
+
+#p11 {
+  color: white;
+  font-size: 60px;
+  text-align: center ;
+
+}
+
