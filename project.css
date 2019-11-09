@@ -1,13 +1,14 @@
 
 .header {
-	align-self: center;
-	height: 20px;
+	margin: auto;
+	width: fit-content ;
 }
 #all {
   	display: grid;
-	grid-template-columns: 1fr 1fr 1fr ;
-	grid-template-rows: 1fr 1fr 1fr  ;
+	grid-template-columns: 1fr  ;
+	grid-template-rows: 1fr   ;
 	grid-row-gap: 40px;
+	vertical-align: center;
 }
 #img1 {
 	margin: 20px auto auto 20px;
@@ -39,12 +40,13 @@
  	transform: rotate(360deg);
 }
 .divs {
-	margin: 10px;
+	margin: 0px auto;
 	background-color: #ffcc66;
 	border-radius: 30px ;
 	font-size: 15px;
-	width: 250px;
+	width: 600px;
 	height: 250px;
+	vertical-align: center ;
 }
 .info {
 	text-transform: uppercase;
@@ -54,9 +56,10 @@
 
 }
 #enter {
-	margin-left: 600px;
+	
 	border-radius: 50%;
-	width: 40px;
+	width: 65px;
+	margin-left: 55px;
 }
 #rbk {
 	margin: 20px auto auto 20px;
@@ -67,4 +70,60 @@
     margin-left: auto;
     margin-right: auto ;
 }
+h4 {
+	color: black;
+	font-size: 20px;
+}
+#btcont3:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 
+#divnext {
+	margin: 20px auto auto 20px;
+  	border-radius: 50%;
+  	width: 100px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+#pass {
+
+	width: 150px;
+    align-items: center;
+}
+#whit {
+	background-color: white;
+}
+.imgexp:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+}
+.bgFont li{
+font-size:15px;
+}
+#work {
+	font-size: large;
+    text-align: center;
+}
+#vol1  {
+
+  	border-radius: 50%;
+  	width: 90px;
+  	
+
+  
+}
+#vol2 {
+
+	border-radius: 50%;
+  	width: 70px;
+  	 
+
+}
+#vol3 {
+	border-radius: 50%;
+  	width: 70px;
+  	
+}

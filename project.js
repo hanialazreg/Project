@@ -18,9 +18,45 @@ $(document).ready(function() {
 	});
 */
 	$('#enter').on('click', function(){
-		
+		//var pass = $('')
+		if($('#pass').val() === "hania"){
+		$('.header').toggle("slow");
 		$('.divs').show();
-		$('.header').toggle();
+		$('#work').hide();
+		}
+		else
+		alert("sorry you are not an RBK family member :) ");
 
 	});
+	
+	$('#img1').on('click', function(){
+		$('#ul1').append('<li>master degree auditing and information security</li>');
+		$('#ul1 li:last').append('<li>bachelor degree information applied in management</li>');
+				
+
+	});
+
+	$("#ul1").click(function(){
+ 		 $("#deg").toggle(3000);
+ 		 //animate({left: '250px'});
+		}); 
+	$("#info").click(function(){
+		$('#work').show();
+	});
+
+	
+	('#imgexp').on('click', function(){
+	$('imgexp').attr('src','arrow.jpg');
+});
+/*
+$("imgexp").click(
+   function () {
+     $(this).attr('src','work.png');  
+   },
+   function () {
+      $(this).attr('src','arrow.jpg');  
+   }
+);
+*/
+	
 });
