@@ -1,7 +1,14 @@
 
+body {
+  background-color: #bfbfbf ;
+
+}
 .header {
 	margin: auto;
 	width: fit-content ;
+}
+#head {
+  padding-top: 100px;
 }
 #all {
   	display: grid;
@@ -11,7 +18,7 @@
 	vertical-align: center;
 }
 #img1 {
-	margin: 20px auto auto 20px;
+	margin: 50px;
   	border-radius: 50%;
   	width: 100px;
   	display: block;
@@ -93,7 +100,7 @@ h4 {
     align-items: center;
 }
 #whit {
-	background-color: white;
+	background-color: #bfbfbf;
 }
 .imgexp:hover {
   -webkit-transform: scaleX(-1);
